@@ -43,7 +43,7 @@ The main part of the project exists in a Jupyter Notebook - an interactive envir
 Open up a command line and run the following:
 
 ````bash
-git clone https://github.com/yourusername/povertymap-ohio.git
+git clone https://github.com/Nickydoesthings/povertymap-ohio.git
 cd povertymap-ohio
 pip install -r requirements.txt
 jupyter notebook PovertyMap_Ohio.ipynb
