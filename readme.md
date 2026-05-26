@@ -20,22 +20,22 @@ The data used:
 
 ## Exploring different weights
 
-We can choose to prioritize each measurement differently to explore how shifting perspective alters the picture. The notebook comes pre-loaded with the following viewpoints (and you can eaisily define your own):
+We can choose to prioritize each measurement differently to explore how shifting our perspective alters the picture. The notebook comes pre-loaded with the following viewpoints (and you can eaisily define your own):
 * **Balanced (default)**, *an attempt to get the 'full picture'* : 40% weight to poverty rate, 20% weight to everything else.
 * **Income focused**, *a stronger emphasis on below-poverty income levels* : 70% weight to poverty rate, 10% weight to everything else.
-* **Material hardship**, *a stronger emphasis on the inability to get food and shelter* : 40% weight to food insecrutty and housing burden, 10% weight to everything else.
+* **Material hardship**, *a stronger emphasis on the inability to get food and shelter* : 40% weight to food insecurity and housing burden, 10% weight to everything else.
 * **Labor market**, *a stronger emphasis on unemployment* : 70% weight on unemployment, 10% weight to everything else.
 
 
 ## The structure of PovertyMap Ohio
 
-The main part of the project exists in a Jupyter Notebook - an interactive environment for executive code. Most of the notebooks deals with getting the data into a useable format and visualizing it. Here's how everything is set up:
+The main part of the project exists in a Jupyter Notebook - an interactive environment for executing code. Most of the notebooks deals with getting the data into a useable format and visualizing it. Here's how everything is set up:
 
 * Section 1 — Setup & Configuration
-* Section 2 — Data Acquisition : get the individual data components, taking it from public sources.
-* Section 3 — Cleaning & Combine : identify the data we need and strip what we don't, then combine everything together into a single data file.
+* Section 2 — Data Acquisition : Get the individual data components, taking it from public sources.
+* Section 3 — Clean & Combine : Identify the data we need and strip what we don't, then combine everything together into a single table.
 * Section 4 — Composite Index : Define initial weights and see how they affect measurements of poverty.
-* Section 5 — Visualize: put it all together in an interactive map of Ohio's counties, with selections for different weightings.
+* Section 5 — Visualize: Put it all together in an interactive map of Ohio's counties, with selections for different weightings.
 
 
 ## Want to run it yourself?
