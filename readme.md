@@ -12,15 +12,15 @@ The data used:
 
 | Measure | Source | Where it comes from | What it captures |
 |---|---|---|---|
-| Poverty rate | American Community Survey Census 5-Year | US Cencus Bureau | What percent of households are below official income-based poverty thresholds |
+| Poverty rate | American Community Survey Census 5-Year | US Census Bureau | What percent of households are below official income-based poverty thresholds |
 | Unemployment rate | Local Area Unemployment Statistics | Bureau of Labor Statistics | What percent of workers are unemployed |
-| Food insecurity | County Health Rankings - Food Insecurity | Univ. of Wisconsin Population Health Institute  | What percent of households are lack reliable access to enough food |
+| Food insecurity | County Health Rankings - Food Insecurity | Univ. of Wisconsin Population Health Institute | What percent of households lack reliable access to enough food |
 | Severe housing cost burden | County Health Rankings - Housing Cost Burden | Univ. of Wisconsin Population Health Institute | What percent of households spend over 50% of monthly income on housing costs |
 
 
 ## Exploring different weights
 
-We can choose to prioritize each measurement differently to explore how shifting our perspective alters the picture. The notebook comes pre-loaded with the following viewpoints (and you can eaisily define your own):
+We can choose to prioritize each measurement differently to explore how shifting our perspective alters the picture. The notebook comes pre-loaded with the following viewpoints (and you can easily define your own):
 * **Balanced (default)**, *an attempt to get the 'full picture'* : 40% weight to poverty rate, 20% weight to everything else.
 * **Income focused**, *a stronger emphasis on below-poverty income levels* : 70% weight to poverty rate, 10% weight to everything else.
 * **Material hardship**, *a stronger emphasis on the inability to get food and shelter* : 40% weight to food insecurity and housing burden, 10% weight to everything else.
@@ -29,7 +29,7 @@ We can choose to prioritize each measurement differently to explore how shifting
 
 ## The structure of PovertyMap Ohio
 
-The main part of the project exists in a Jupyter Notebook - an interactive environment for executing code. Most of the notebooks deals with getting the data into a useable format and visualizing it. Here's how everything is set up:
+The main part of the project exists in a Jupyter Notebook - an interactive environment for executing code. Most of the notebook deals with getting the data into a useable format and visualizing it. Here's how everything is set up:
 
 * Section 1 — Setup & Configuration
 * Section 2 — Data Acquisition : Get the individual data components, taking it from public sources.
