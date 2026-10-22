@@ -2,6 +2,8 @@
 
 This is a county-level exploration of poverty throughout Ohio's 88 counties. Pulling from multiple public data sources, it combines a variety of factors into a single composite measure of poverty, and then produces an interactive visualization.
 
+Explore the map for free, in your browser, by clicking [this link](https://nickydoesthings.github.io/povertymap-ohio/).
+
 ![Map Preview](media/interactiveMap.gif)
 
 ## What it does
